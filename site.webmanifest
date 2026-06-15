@@ -1,0 +1,17 @@
+{
+  "name": "StructLab",
+  "short_name": "StructLab",
+  "description": "Construction education, certification, and hiring platform.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#070a1f",
+  "theme_color": "#315dff",
+  "icons": [
+    {
+      "src": "./assets/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+
+# Local verification artifacts
+_verify-*.png
+playwright-report/
+test-results/
