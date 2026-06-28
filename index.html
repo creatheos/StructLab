@@ -6,8 +6,8 @@
 <title>StructLab – Bridging Education & Construction</title>
 <meta name="description" content="StructLab connects construction education, certification, and hiring workflows in one platform.">
 <meta name="theme-color" content="#315dff">
-<link rel="icon" type="image/png" href="./assets/images/logo.png">
-<link rel="apple-touch-icon" href="./assets/images/logo.png">
+<link rel="icon" type="image/png" href="./assets/images/structlab-logo-icon.png">
+<link rel="apple-touch-icon" href="./assets/images/structlab-logo-icon.png">
 <link rel="manifest" href="./site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300..900;1,400..700&family=Noto+Sans+Display:wght@400..900&display=swap" rel="stylesheet">
@@ -2448,11 +2448,12 @@
   })();
 </script>
 
+<div class="motion-progress" aria-hidden="true"><span></span></div>
+
 <!-- NAV -->
 <nav class="top-nav">
-  <a class="nav-logo" onclick="showPage('landing')" style="text-decoration:none;cursor:pointer">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-    StructLab
+  <a class="nav-logo brand-logo-link" onclick="showPage('landing')" style="text-decoration:none;cursor:pointer" aria-label="StructLab home">
+    <img class="brand-logo-img brand-logo-img-nav" src="./assets/images/structlab-wordmark.png" alt="">
   </a>
   <div class="nav-links">
     <a href="#courses" onclick="handleNavClick(event, 'courses')">Courses</a>
@@ -2507,18 +2508,6 @@
       </div>
     </div>
   </section>
-
-  <!-- Trusted -->
-  <div class="trusted">
-    <p>Trusted by Top Construction Companies</p>
-    <div class="trusted-logos">
-      <span class="trusted-logo">AlsricBany</span>
-      <span class="trusted-logo">SantWork</span>
-      <span class="trusted-logo">Qrs Industrial</span>
-      <span class="trusted-logo">SnintrsLe.os</span>
-      <span class="trusted-logo">BakuBuild Co.</span>
-    </div>
-  </div>
 
   <!-- Value Props -->
   <div class="value-props">
@@ -2790,7 +2779,7 @@
         <div class="course-body">
           <h3>OSHA 30-Hour Construction Safety</h3>
           <p class="course-author">by Amanda Reid</p>
-          
+
           <p class="course-description">
             Ensure your construction site meets OSHA standards with this comprehensive 30-hour course. Covering key topics such as hazard recognition, fall protection, scaffolding safety, and more, this course is designed to help you create a safer work environment. With expert instruction and practical guidance, you'll be prepared to implement effective safety measures and reduce risks on your construction projects.
           </p>
@@ -3123,9 +3112,8 @@
   <footer>
     <div class="footer-grid">
       <div class="footer-brand">
-        <a class="nav-logo" style="display:flex;margin-bottom:14px;">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-          <span style="margin-left:8px">StructLab</span>
+        <a class="nav-logo brand-logo-link footer-logo-link" style="display:flex;margin-bottom:14px;" aria-label="StructLab">
+          <img class="brand-logo-img brand-logo-img-footer" src="./assets/images/structlab-wordmark.png" alt="">
         </a>
         <p>Empowering construction professionals through quality education and training.</p>
       </div>
@@ -3159,9 +3147,8 @@
 <div id="page-student" class="page">
   <div class="dashboard-page">
     <aside class="sidebar">
-      <div class="sidebar-logo">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        StructLab
+      <div class="sidebar-logo" aria-label="StructLab">
+        <img class="brand-logo-img brand-logo-img-sidebar" src="./assets/images/structlab-wordmark.png" alt="">
       </div>
       <nav class="sidebar-nav">
         <div class="sidebar-item active" data-student-view="dashboard">
@@ -3491,9 +3478,8 @@
 <div id="page-company" class="page">
   <div class="dashboard-page">
     <aside class="sidebar">
-      <div class="sidebar-logo">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        StructLab
+      <div class="sidebar-logo" aria-label="StructLab">
+        <img class="brand-logo-img brand-logo-img-sidebar" src="./assets/images/structlab-wordmark.png" alt="">
       </div>
       <nav class="sidebar-nav">
         <div class="sidebar-item active" data-company-view="dashboard">
@@ -3600,9 +3586,8 @@
 <div id="page-admin" class="page">
   <div class="dashboard-page">
     <aside class="sidebar">
-      <div class="sidebar-logo">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        StructLab
+      <div class="sidebar-logo" aria-label="StructLab">
+        <img class="brand-logo-img brand-logo-img-sidebar" src="./assets/images/structlab-wordmark.png" alt="">
       </div>
       <nav class="sidebar-nav">
         <div class="sidebar-item active" data-admin-view="dashboard">
@@ -3759,9 +3744,8 @@
     <button class="modal-close" aria-label="Close" onclick="closeAuthModal()">×</button>
     <div class="auth-layout">
       <aside class="auth-visual">
-        <div class="auth-brand">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-          StructLab
+        <div class="auth-brand" aria-label="StructLab">
+          <img class="brand-logo-img brand-logo-img-auth" src="./assets/images/structlab-wordmark.png" alt="">
         </div>
         <h3 id="authVisualTitle">A smarter way to learn, certify, and get hired.</h3>
         <p id="authVisualText">Create a realistic account flow for students, companies, and admins inside the same demo platform.</p>
@@ -4197,7 +4181,7 @@
       "pills": [
         "Sertifikatlı proqramlar",
         "Peşəkar təlimçilər",
-        "Ömürlük giriş"
+        "Bir dəfə qeydiyyat"
       ]
     },
     "trusted": "Aparıcı tikinti şirkətlərinin etibarı ilə",
@@ -5473,10 +5457,10 @@
       var email = (this.querySelector('input[type="email"]') ? this.querySelector('input[type="email"]').value : '').trim();
       var pass = (this.querySelector('input[type="password"]') ? this.querySelector('input[type="password"]').value : '').trim();
       if (!email || !pass) { showToast('Please fill in all fields.', 'error'); return; }
-      
+
       var users = [];
       try { users = JSON.parse(localStorage.getItem('sl_users') || '[]'); } catch(err) {}
-      
+
       // Load default users if empty
       var defaultUsers = [
         { email: 'ali@demo.com', name: 'Ali Rahimov', role: 'student' },
@@ -5500,7 +5484,7 @@
         else if (email.toLowerCase().includes('company') || email.toLowerCase().includes('hr')) role = 'company';
         var name = email.split('@')[0] || 'User';
         name = name.charAt(0).toUpperCase() + name.slice(1);
-        
+
         users.push({ email: email, name: name, role: role });
         localStorage.setItem('sl_users', JSON.stringify(users));
         loginUser(role, name, email);
@@ -5519,10 +5503,10 @@
       var roleMap = { student: 'student', company: 'company', instructor: 'admin', admin: 'admin' };
       var role = roleEl ? (roleMap[roleEl.value] || 'student') : 'student';
       if (!first || !email) { showToast('Please fill in all fields.', 'error'); return; }
-      
+
       var users = [];
       try { users = JSON.parse(localStorage.getItem('sl_users') || '[]'); } catch(err) {}
-      
+
       var existingUser = users.find(function(u) { return u.email.toLowerCase() === email.toLowerCase(); });
       var name = first + (last ? ' ' + last : '');
       if (!existingUser) {
@@ -5532,7 +5516,7 @@
         role = existingUser.role;
         name = existingUser.name;
       }
-      
+
       loginUser(role, name, email);
     });
   }
@@ -5545,7 +5529,7 @@
       admin: { name: 'Admin', email: 'admin@structlab.az' }
     };
     var d = demos[role] || demos.student;
-    
+
     // Make sure demo user is stored in sl_users list as well
     var users = [];
     try { users = JSON.parse(localStorage.getItem('sl_users') || '[]'); } catch(err) {}
@@ -5553,7 +5537,7 @@
       users.push({ email: d.email, name: d.name, role: role });
       localStorage.setItem('sl_users', JSON.stringify(users));
     }
-    
+
     loginUser(role, d.name, d.email);
   }
 
@@ -5604,12 +5588,12 @@
   function renderStudentCourses() {
     var enrolledIds = getEnrolled();
     var lang = localStorage.getItem('structlabLanguage') || 'en';
-    
+
     // Update Student KPIs
     var activeCount = enrolledIds.length;
     var totalProgress = 0;
     var certCount = 0;
-    
+
     enrolledIds.forEach(function(id) {
       var c = courseDataMap[id];
       if (c) {
@@ -5619,25 +5603,25 @@
         }
       }
     });
-    
+
     var avgProgress = activeCount > 0 ? Math.round(totalProgress / activeCount) : 0;
-    
+
     var activeCountEl = document.getElementById('studentActiveCoursesCount');
     if (activeCountEl) activeCountEl.textContent = activeCount;
-    
+
     var avgProgressEl = document.getElementById('studentAvgProgress');
     if (avgProgressEl) avgProgressEl.textContent = avgProgress + '%';
-    
+
     var certCountEl = document.getElementById('studentCertificatesCount');
     if (certCountEl) certCountEl.textContent = certCount;
-    
+
     // Update progress card
     var progressPercentEl = document.getElementById('studentProgressPercent');
     if (progressPercentEl) progressPercentEl.textContent = avgProgress + '%';
-    
+
     var progressFillEl = document.getElementById('studentProgressFill');
     if (progressFillEl) progressFillEl.style.width = avgProgress + '%';
-    
+
     // Render Enrolled Courses on student dashboard
     var enrolledListEl = document.getElementById('studentEnrolledCoursesList');
     if (enrolledListEl) {
@@ -5654,12 +5638,12 @@
           var levelText = lang === 'az' ? (c.level === 'Beginner' ? 'Başlanğıc' : c.level === 'Intermediate' ? 'Orta' : 'İrəli') : c.level;
           var progressText = lang === 'az' ? c.progress + '% tamamlanıb' : c.progress + '% complete';
           if (c.progress === 100) progressText += ' ✓';
-          
+
           var progressColor = c.progress === 100 ? 'var(--success)' : c.progress >= 50 ? 'var(--blue)' : 'var(--orange)';
 
           var row = document.createElement('div');
           row.className = 'candidate-row';
-          row.innerHTML = 
+          row.innerHTML =
             '<div class="candidate-avatar" style="background:' + c.color + '">' + c.avatar + '</div>' +
             '<div class="candidate-info">' +
               '<h4>' + title + '</h4>' +
@@ -5696,7 +5680,7 @@
 
           var row = document.createElement('div');
           row.className = 'student-course-row';
-          row.innerHTML = 
+          row.innerHTML =
             '<div class="course-icon-box" style="background:' + c.color + '">' + c.avatar + '</div>' +
             '<div class="course-row-main">' +
               '<h4>' + title + '</h4>' +
@@ -5816,6 +5800,150 @@
     btn.addEventListener('click', function() { window.scrollTo({ top: 0, behavior: 'smooth' }); });
   })();
 
+  /* ===================== LANDING MOTION SYSTEM ===================== */
+  (function() {
+    var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var landing = document.getElementById('page-landing');
+    if (!landing) return;
+
+    function markMotionElements() {
+      var groups = [
+        '.value-prop',
+        '.stat-item',
+        '#how-it-works .section-header',
+        '#how-it-works .how-card',
+        '#categories .section-header',
+        '#categories .cat-card',
+        '#courses .section-header',
+        '#courses .courses-toolbar',
+        '#courses .filter-tabs',
+        '#courses .course-card',
+        '#showcase .section-header',
+        '#showcase .showcase-card',
+        '#faq .section-header',
+        '#faq .faq-item',
+        '#team .section-header',
+        '#team .team-card',
+        '#about .section-header',
+        '#about .dash-card',
+        '.cta-section',
+        '#contact .section-header',
+        '#contact .contact-info-item',
+        '#contact .contact-form',
+        '.partners-section .section-header',
+        '.partner-card',
+        'footer .footer-brand',
+        'footer .footer-col',
+        'footer .footer-bottom'
+      ];
+
+      groups.forEach(function(selector) {
+        document.querySelectorAll(selector).forEach(function(el, index) {
+          el.classList.add('motion-ready');
+          el.style.setProperty('--motion-index', index % 6);
+        });
+      });
+
+      document.querySelectorAll('#page-landing .course-card, #page-landing .showcase-card, #page-landing .team-card, #page-landing .partner-card, #page-landing .cat-card, #page-landing .how-card').forEach(function(el) {
+        el.classList.add('tilt-ready');
+      });
+
+      document.querySelectorAll('#page-landing > .section, #page-landing > .value-props, #page-landing > .stats, #page-landing > .cta-section, #page-landing > .partners-section, #page-landing > footer').forEach(function(el, index) {
+        el.classList.add('scroll-scene');
+        el.style.setProperty('--scene-index', index);
+      });
+    }
+
+    function initReveal() {
+      var items = document.querySelectorAll('.motion-ready');
+      var scenes = document.querySelectorAll('.scroll-scene');
+      if (reduceMotion || !('IntersectionObserver' in window)) {
+        items.forEach(function(el) { el.classList.add('in-view'); });
+        scenes.forEach(function(el) { el.classList.add('scene-open'); });
+        return;
+      }
+
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('in-view');
+          observer.unobserve(entry.target);
+        });
+      }, { threshold: 0.16, rootMargin: '0px 0px -8% 0px' });
+
+      items.forEach(function(el) { observer.observe(el); });
+
+      var sceneObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('scene-open');
+          sceneObserver.unobserve(entry.target);
+        });
+      }, { threshold: 0.08, rootMargin: '0px 0px -10% 0px' });
+
+      scenes.forEach(function(el) { sceneObserver.observe(el); });
+    }
+
+    function initTilt() {
+      if (reduceMotion || !window.matchMedia('(pointer: fine)').matches) return;
+      document.querySelectorAll('.tilt-ready').forEach(function(card) {
+        card.addEventListener('pointermove', function(event) {
+          var rect = card.getBoundingClientRect();
+          var px = (event.clientX - rect.left) / rect.width;
+          var py = (event.clientY - rect.top) / rect.height;
+          var rotateY = (px - .5) * 7;
+          var rotateX = (.5 - py) * 6;
+          card.style.setProperty('--tilt-x', rotateX.toFixed(2) + 'deg');
+          card.style.setProperty('--tilt-y', rotateY.toFixed(2) + 'deg');
+          card.style.setProperty('--mx', Math.round(px * 100) + '%');
+          card.style.setProperty('--my', Math.round(py * 100) + '%');
+        });
+        card.addEventListener('pointerleave', function() {
+          card.style.setProperty('--tilt-x', '0deg');
+          card.style.setProperty('--tilt-y', '0deg');
+          card.style.setProperty('--mx', '50%');
+          card.style.setProperty('--my', '50%');
+        });
+      });
+    }
+
+    function initScrollProgress() {
+      var bar = document.querySelector('.motion-progress span');
+      var ticking = false;
+
+      function update() {
+        var doc = document.documentElement;
+        var maxScroll = Math.max(1, doc.scrollHeight - window.innerHeight);
+        var progress = Math.min(1, Math.max(0, window.scrollY / maxScroll));
+        if (bar) bar.style.transform = 'scaleX(' + progress + ')';
+        landing.style.setProperty('--landing-progress', progress.toFixed(4));
+
+        var hero = document.querySelector('#page-landing .hero');
+        if (hero) {
+          var heroRect = hero.getBoundingClientRect();
+          var heroProgress = Math.min(1, Math.max(0, -heroRect.top / Math.max(1, hero.offsetHeight)));
+          hero.style.setProperty('--hero-shift', (heroProgress * 34).toFixed(2));
+        }
+        ticking = false;
+      }
+
+      function requestTick() {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(update);
+      }
+
+      update();
+      window.addEventListener('scroll', requestTick, { passive: true });
+      window.addEventListener('resize', requestTick);
+    }
+
+    markMotionElements();
+    initReveal();
+    initTilt();
+    initScrollProgress();
+  })();
+
   /* ===================== ADMIN CRUD ===================== */
   function addAuditLog(action, detail, user) {
     var tbody = document.querySelector('#admin-view-settings .student-table tbody');
@@ -5838,7 +5966,7 @@
       { id: 'uc', name: 'UrbanConstruct', desc: 'Tax certificate uploaded · needs human verification', avatar: 'UC', color: 'linear-gradient(135deg,var(--orange),#c9520a)', status: 'Pending' },
       { id: 'mc', name: 'MegaConstruction', desc: 'Premium partner request · review payment and contract', avatar: 'MC', color: 'linear-gradient(135deg,var(--blue),#1a2a5e)', status: 'Pending' }
     ];
-    
+
     // Merge or load from main user db
     var users = [];
     try { users = JSON.parse(localStorage.getItem('sl_users') || '[]'); } catch(e) {}
@@ -5871,7 +5999,7 @@
     var tbody = document.getElementById('adminStudentsTableBody');
     if (!tbody) return;
     tbody.innerHTML = '';
-    
+
     var filtered = students.filter(function(s) {
       if (!query) return true;
       var q = query.toLowerCase();
@@ -5885,7 +6013,7 @@
     filtered.forEach(function(s) {
       var statusClass = s.status === 'Active' ? 'green' : s.status === 'Learning' ? 'blue' : 'orange';
       var row = document.createElement('tr');
-      row.innerHTML = 
+      row.innerHTML =
         '<td><strong>' + s.name + '</strong><br>' + s.email + '</td>' +
         '<td>' + s.track + '</td>' +
         '<td>' + s.progress + '</td>' +
@@ -5913,7 +6041,7 @@
       filtered.forEach(function(c) {
         var item = document.createElement('div');
         item.className = 'compact-item';
-        
+
         var sideHtml = '';
         if (c.id === 'uc') {
           sideHtml = '<button class="btn-soft" onclick="adminRejectCompany(this, \'' + c.name + '\')">Reject</button>' +
@@ -5922,7 +6050,7 @@
           sideHtml = '<button class="btn-soft" onclick="showToast(\'Contract details loading...\', \'info\')">View</button>';
         }
 
-        item.innerHTML = 
+        item.innerHTML =
           '<div class="compact-item-main">' +
             '<div class="compact-icon" style="background:' + c.color + '">' + c.avatar + '</div>' +
             '<div><h4>' + c.name + '</h4><p>' + c.desc + '</p></div>' +
@@ -5938,7 +6066,7 @@
     var c = companies.find(function(comp) { return comp.name === companyName; });
     if (c) c.status = 'Approved';
     localStorage.setItem('sl_admin_companies', JSON.stringify(companies));
-    
+
     addAuditLog('Approved company', companyName, 'Admin');
     showToast(companyName + ' approved successfully.', 'success');
     renderAdminCompanies();
@@ -5949,7 +6077,7 @@
     var c = companies.find(function(comp) { return comp.name === companyName; });
     if (c) c.status = 'Rejected';
     localStorage.setItem('sl_admin_companies', JSON.stringify(companies));
-    
+
     addAuditLog('Rejected company', companyName, 'Admin');
     showToast(companyName + ' has been rejected.', 'error');
     renderAdminCompanies();
@@ -5980,7 +6108,7 @@
     var email = (document.getElementById('newStudentEmail') ? document.getElementById('newStudentEmail').value : '').trim();
     var track = (document.getElementById('newStudentTrack') ? document.getElementById('newStudentTrack').value : '').trim() || 'General';
     if (!name || !email) { showToast('Please fill name and email.', 'error'); return; }
-    
+
     var students = getAdminStudents();
     students.push({ name: name, email: email, track: track, progress: '0%', status: 'Active' });
     localStorage.setItem('sl_admin_students', JSON.stringify(students));
@@ -5992,12 +6120,12 @@
       users.push({ email: email, name: name, role: 'student' });
       localStorage.setItem('sl_users', JSON.stringify(users));
     }
-    
+
     addAuditLog('Added student', name, 'Admin');
     closeAdminStudentModal();
     showToast('Student "' + name + '" added successfully.', 'success');
     renderAdminStudents();
-    
+
     var form = document.getElementById('adminStudentForm');
     if (form) form.reset();
   }
@@ -6704,6 +6832,279 @@
     to { background-position: 128px 0, 0 128px, center; }
   }
 
+  .motion-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    z-index: 2200;
+    pointer-events: none;
+    background: rgba(7,10,31,.08);
+  }
+
+  .motion-progress span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: linear-gradient(90deg, #ffd84d, #ff8a2a 32%, #7c3cff 68%, #27d7ff);
+    box-shadow: 0 0 18px rgba(255,216,77,.42), 0 0 30px rgba(39,215,255,.28);
+    will-change: transform;
+  }
+
+  #page-landing {
+    isolation: isolate;
+  }
+
+  #page-landing .section,
+  #page-landing .value-props,
+  #page-landing .stats,
+  #page-landing .partners-section,
+  #page-landing .cta-section,
+  #page-landing footer {
+    position: relative;
+    overflow: clip;
+  }
+
+  #page-landing .section::after,
+  #page-landing .value-props::after,
+  #page-landing .stats::after,
+  #page-landing .cta-section::after,
+  #page-landing .partners-section::after {
+    content: "";
+    position: absolute;
+    inset: auto 7vw 0;
+    height: 1px;
+    pointer-events: none;
+    background: linear-gradient(90deg, transparent, rgba(255,216,77,.44), rgba(39,215,255,.34), transparent);
+    opacity: .72;
+  }
+
+  #page-landing .hero {
+    min-height: min(760px, calc(100vh - 20px));
+    transform-style: preserve-3d;
+  }
+
+  #page-landing .hero > * {
+    transform: translate3d(0, calc(var(--hero-shift, 0) * -1px), 0);
+    transition: transform .18s linear;
+    will-change: transform;
+  }
+
+  #page-landing .hero h1 {
+    letter-spacing: 0 !important;
+    text-wrap: balance;
+  }
+
+  #page-landing .hero-search {
+    position: relative;
+    overflow: hidden;
+  }
+
+  #page-landing .hero-search::after,
+  #page-landing .course-card::after,
+  #page-landing .showcase-card::after,
+  #page-landing .team-card::after,
+  #page-landing .partner-card::after,
+  #page-landing .cat-card::after,
+  #page-landing .how-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0;
+    background:
+      linear-gradient(115deg, transparent 0 32%, rgba(255,255,255,.46) 45%, transparent 58%),
+      radial-gradient(circle at var(--mx, 50%) var(--my, 50%), rgba(255,216,77,.20), transparent 34%);
+    transform: translateX(-30%);
+    transition: opacity .24s ease, transform .7s ease;
+  }
+
+  #page-landing .hero-search:hover::after,
+  #page-landing .course-card:hover::after,
+  #page-landing .showcase-card:hover::after,
+  #page-landing .team-card:hover::after,
+  #page-landing .partner-card:hover::after,
+  #page-landing .cat-card:hover::after,
+  #page-landing .how-card:hover::after {
+    opacity: .85;
+    transform: translateX(30%);
+  }
+
+  .motion-ready {
+    --reveal-y: 72px;
+    --reveal-scale: .955;
+    --tilt-x: 0deg;
+    --tilt-y: 0deg;
+    opacity: 0;
+    clip-path: inset(18% 0 0 0 round 8px);
+    filter: blur(16px) saturate(.88);
+    transform:
+      perspective(1000px)
+      translate3d(0, var(--reveal-y), 0)
+      scale(var(--reveal-scale))
+      rotateX(var(--tilt-x))
+      rotateY(var(--tilt-y));
+    transition:
+      opacity .82s cubic-bezier(.2,.8,.2,1),
+      clip-path .92s cubic-bezier(.16,1,.3,1),
+      filter .82s cubic-bezier(.2,.8,.2,1),
+      transform .82s cubic-bezier(.2,.8,.2,1),
+      box-shadow .28s ease,
+      border-color .28s ease;
+    transition-delay: calc(var(--motion-index, 0) * 58ms);
+    will-change: transform, opacity, filter;
+  }
+
+  .motion-ready.in-view {
+    --reveal-y: 0px;
+    --reveal-scale: 1;
+    opacity: 1;
+    clip-path: inset(0 0 0 0 round 0);
+    filter: blur(0) saturate(1);
+  }
+
+  .scroll-scene {
+    --scene-shift: 82px;
+    opacity: 0;
+    clip-path: inset(12% 3% 12% 3% round 22px);
+    transform: translate3d(0, var(--scene-shift), 0) scale(.985);
+    transition:
+      opacity 1s cubic-bezier(.16,1,.3,1),
+      clip-path 1.15s cubic-bezier(.16,1,.3,1),
+      transform 1.15s cubic-bezier(.16,1,.3,1);
+    will-change: transform, opacity, clip-path;
+  }
+
+  .scroll-scene.scene-open {
+    opacity: 1;
+    clip-path: inset(0 0 0 0 round 0);
+    transform: translate3d(0,0,0) scale(1);
+  }
+
+  .scroll-scene::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(120deg, transparent 0 42%, rgba(255,255,255,.18) 49%, transparent 56%),
+      radial-gradient(circle at 18% 10%, rgba(255,216,77,.10), transparent 22%),
+      radial-gradient(circle at 86% 18%, rgba(39,215,255,.10), transparent 24%);
+    opacity: 0;
+    transform: translateX(-16%);
+    transition: opacity .9s ease, transform 1.25s cubic-bezier(.16,1,.3,1);
+  }
+
+  .scroll-scene.scene-open::before {
+    opacity: .72;
+    transform: translateX(16%);
+  }
+
+  .scroll-scene > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .tilt-ready {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+
+  .tilt-ready:hover {
+    border-color: rgba(255,216,77,.28) !important;
+  }
+
+  #page-landing .section-header.motion-ready h2,
+  #page-landing .section-header.motion-ready p {
+    transform: translateY(18px);
+    opacity: 0;
+    transition: transform .78s cubic-bezier(.2,.8,.2,1), opacity .78s ease;
+  }
+
+  #page-landing .section-header.motion-ready.in-view h2,
+  #page-landing .section-header.motion-ready.in-view p {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  #page-landing .section-header.motion-ready.in-view p {
+    transition-delay: .12s;
+  }
+
+  #page-landing .stats {
+    position: relative;
+    overflow: hidden;
+  }
+
+  #page-landing .stats::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(90deg, transparent 0 18%, rgba(255,216,77,.16) 22%, transparent 34%),
+      repeating-linear-gradient(90deg, rgba(255,255,255,.08) 0 1px, transparent 1px 90px);
+    transform: translateX(calc(var(--landing-progress, 0) * 90px));
+    opacity: .55;
+  }
+
+  #page-landing .cat-card,
+  #page-landing .how-card,
+  #page-landing .course-card,
+  #page-landing .showcase-card,
+  #page-landing .team-card,
+  #page-landing .partner-card,
+  #page-landing .contact-info-item,
+  #page-landing .contact-form,
+  #page-landing #about .dash-card {
+    position: relative;
+    overflow: hidden;
+  }
+
+  #page-landing .course-img,
+  #page-landing .team-photo img {
+    will-change: transform;
+    transition: transform .65s cubic-bezier(.2,.8,.2,1), filter .45s ease;
+  }
+
+  #page-landing .course-card:hover .course-img,
+  #page-landing .team-card:hover .team-photo img {
+    transform: scale(1.055) translateY(-6px);
+  }
+
+  #page-landing .match-fill,
+  #page-landing .progress-fill,
+  #page-landing .white-fill {
+    transform-origin: left;
+    animation: linePulse 2.8s ease-in-out infinite;
+  }
+
+  @keyframes linePulse {
+    0%, 100% { filter: saturate(1); }
+    50% { filter: saturate(1.45) brightness(1.15); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .motion-progress span,
+    .motion-ready,
+    .scroll-scene,
+    #page-landing .hero > *,
+    #page-landing .match-fill,
+    #page-landing .progress-fill,
+    #page-landing .white-fill {
+      animation: none !important;
+      transition: none !important;
+      transform: none !important;
+      filter: none !important;
+      clip-path: none !important;
+      opacity: 1 !important;
+    }
+  }
+
   #scrollTopBtn,
   #scrollTopBtn.visible { display: none !important; }
   .menu-toggle,
@@ -6733,6 +7134,68 @@
     #toastContainer { right: 12px; left: 12px; bottom: 16px; }
     .toast { min-width: 0; width: 100%; }
     .mobile-nav-drawer { width: 100%; }
+  }
+
+  .brand-logo-img {
+    display: block;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 7px;
+    filter: drop-shadow(0 1px 1px rgba(7,10,31,.30));
+  }
+
+  .nav-logo.brand-logo-link {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+    background: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .brand-logo-img-nav {
+    width: 138px;
+    height: 47px;
+  }
+
+  .footer-brand .nav-logo.brand-logo-link {
+    display: inline-flex !important;
+    margin-bottom: 14px !important;
+    padding: 0;
+  }
+
+  .brand-logo-img-footer {
+    width: 148px;
+    height: 50px;
+  }
+
+  .sidebar-logo {
+    padding: 0 18px;
+    margin-bottom: 28px;
+  }
+
+  .brand-logo-img-sidebar {
+    width: 154px;
+    height: 52px;
+  }
+
+  .auth-brand {
+    margin-bottom: 38px;
+  }
+
+  .brand-logo-img-auth {
+    width: 154px;
+    height: 52px;
+  }
+
+  @media (max-width: 900px) {
+    .brand-logo-img-nav {
+      width: 124px;
+      height: 42px;
+    }
   }
 </style>
 

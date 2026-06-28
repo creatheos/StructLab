@@ -8,8 +8,8 @@
   "theme_color": "#315dff",
   "icons": [
     {
-      "src": "./assets/images/logo.png",
-      "sizes": "192x192",
+      "src": "./assets/images/structlab-logo-icon.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     }
